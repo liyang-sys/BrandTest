@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\encode">
+      <UniqueIdentifier>{7068b170-8453-4776-95d5-d85ba0c0c2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\quant">
+      <UniqueIdentifier>{af4383ba-d4c5-4fb5-9f8b-dbc42f21a693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scan">
+      <UniqueIdentifier>{1432720b-75e9-4f6b-b3af-456f924c0f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\trans">
+      <UniqueIdentifier>{d11dd6fa-fe33-452c-957f-ae06627a7457}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="encode\bin_add.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_2n_code_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_2n_code_sub.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_Kside.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_Kside_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_KsideSub.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_KsideSub_n1s.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_r_cr.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_r0.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_r1.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_runs_0seps.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_runs_1sep.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_runs_2seps.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_runs_2sepsA.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_runs_sep_sub.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_sub3d_sub2_sub.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_z0.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_z0_r0.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_zone_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_zone_sub_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_zone_sub2.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encode_block_nrs.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encode_block_nrs_lenres.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encode_block3.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encode_block5.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encode_stationary_source_bin.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encode_stationary_source_cbook.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encode_stationary_source_Nsym.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encode_stationary_source_Nsym_sub.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encode_stationary_source_r_invr.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\encoding.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\find_thd.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\find_thd_idx.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\find_thd4subs.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\find_the_idx_round.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\Golomb0.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\GolombInv.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\hist.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\hist_return_len.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\k_criterion.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\KW_inversion_runs.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\len_bit_to_byte.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\prob_est.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\probility_estimation.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\Separate.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\separate_Bversion.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\separate_inv.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\separate0.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\SFcode.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\sum.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\sumBin.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="trans\SCWP8-method2_all_3.c">
+      <Filter>源文件\trans</Filter>
+    </ClCompile>
+    <ClCompile Include="scan\add.c">
+      <Filter>源文件\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan\find_block.c">
+      <Filter>源文件\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan\Hilbert_other.c">
+      <Filter>源文件\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan\modify_Hilbert_sub.c">
+      <Filter>源文件\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan\modify_Hilbert_sub3D.c">
+      <Filter>源文件\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan\modify_Hilbert2D.c">
+      <Filter>源文件\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan\modify_Hilbert3D.c">
+      <Filter>源文件\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="scan\modify_Hilbert3D_BlockDeformation0.c">
+      <Filter>源文件\scan</Filter>
+    </ClCompile>
+    <ClCompile Include="quant\quant_rest.c">
+      <Filter>源文件\quant</Filter>
+    </ClCompile>
+    <ClCompile Include="quant\quant_sub.c">
+      <Filter>源文件\quant</Filter>
+    </ClCompile>
+    <ClCompile Include="quant\trim.c">
+      <Filter>源文件\quant</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trans\readYUV.c">
+      <Filter>源文件\trans</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\cr_test.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\the_index.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="quant\quant_inv.c">
+      <Filter>源文件\quant</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\deSFcode.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\en_sub3d_sub2.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_2n_code_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_2n_code_sub.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_2n_code_sub1.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_Kside.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_Kside_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_KsideSub.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_KsideSub_n1s.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_r_cr.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_r0.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_r1.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_runs_0seps.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_runs_1sep.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_runs_2seps.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_runs_2sepsA.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_runs_sep_sub.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_sub3d_sub2.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_sub3d_sub2_sub.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_z0.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_z0_r0.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_zone_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_zone_sub_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\de_zone_sub2.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_block3.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_block3_n0s.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_block3_n1s.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_block5.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_block5_n0s.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_block5_n1s.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_stationary_source_leninvr.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_stationary_source_lenr.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_stationary_source_Nsym_lenr.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_stationary_source_r_invr.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\decode_stationary_source_sumr.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode\thd_index_inv.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="all.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modify_Hilbert2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modify_Hilbert3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parameter_setting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quant_inv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quant_rest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quant_sub.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="readYUV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

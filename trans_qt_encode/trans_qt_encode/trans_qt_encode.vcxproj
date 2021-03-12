@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8237197-ADE0-45B2-8B82-092E97332E80}</ProjectGuid>
+    <RootNamespace>trans_qt_encode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\trans;E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan;E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\quant;E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\trans;E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan;E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\quant;E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\liyang\Desktop\BISHE\ZiDaiTest\trans_qt_encode\trans_qt_encode;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <StackReserveSize>
+      </StackReserveSize>
+      <StackCommitSize>
+      </StackCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="encode\bin_add.c" />
+    <ClCompile Include="encode\cr_test.c" />
+    <ClCompile Include="encode\decode_block3.c" />
+    <ClCompile Include="encode\decode_block3_n0s.c" />
+    <ClCompile Include="encode\decode_block3_n1s.c" />
+    <ClCompile Include="encode\decode_block5.c" />
+    <ClCompile Include="encode\decode_block5_n0s.c" />
+    <ClCompile Include="encode\decode_block5_n1s.c" />
+    <ClCompile Include="encode\decode_stationary_source_leninvr.c" />
+    <ClCompile Include="encode\decode_stationary_source_lenr.c" />
+    <ClCompile Include="encode\decode_stationary_source_Nsym_lenr.c" />
+    <ClCompile Include="encode\decode_stationary_source_r_invr.c" />
+    <ClCompile Include="encode\decode_stationary_source_sumr.c" />
+    <ClCompile Include="encode\deSFcode.c" />
+    <ClCompile Include="encode\de_2n_code_new.c" />
+    <ClCompile Include="encode\de_2n_code_sub.c" />
+    <ClCompile Include="encode\de_2n_code_sub1.c" />
+    <ClCompile Include="encode\de_Kside.c" />
+    <ClCompile Include="encode\de_KsideSub.c" />
+    <ClCompile Include="encode\de_KsideSub_n1s.c" />
+    <ClCompile Include="encode\de_Kside_new.c" />
+    <ClCompile Include="encode\de_r0.c" />
+    <ClCompile Include="encode\de_r1.c" />
+    <ClCompile Include="encode\de_runs_0seps.c" />
+    <ClCompile Include="encode\de_runs_1sep.c" />
+    <ClCompile Include="encode\de_runs_2seps.c" />
+    <ClCompile Include="encode\de_runs_2sepsA.c" />
+    <ClCompile Include="encode\de_runs_sep_sub.c" />
+    <ClCompile Include="encode\de_r_cr.c" />
+    <ClCompile Include="encode\de_sub3d_sub2.c" />
+    <ClCompile Include="encode\de_sub3d_sub2_sub.c" />
+    <ClCompile Include="encode\de_z0.c" />
+    <ClCompile Include="encode\de_z0_r0.c" />
+    <ClCompile Include="encode\de_zone_new.c" />
+    <ClCompile Include="encode\de_zone_sub2.c" />
+    <ClCompile Include="encode\de_zone_sub_new.c" />
+    <ClCompile Include="encode\encode_block3.c" />
+    <ClCompile Include="encode\encode_block5.c" />
+    <ClCompile Include="encode\encode_block_nrs.c" />
+    <ClCompile Include="encode\encode_block_nrs_lenres.c" />
+    <ClCompile Include="encode\encode_stationary_source_bin.c" />
+    <ClCompile Include="encode\encode_stationary_source_cbook.c" />
+    <ClCompile Include="encode\encode_stationary_source_Nsym.c" />
+    <ClCompile Include="encode\encode_stationary_source_Nsym_sub.c" />
+    <ClCompile Include="encode\encode_stationary_source_r_invr.c" />
+    <ClCompile Include="encode\encoding.c" />
+    <ClCompile Include="encode\en_2n_code_new.c" />
+    <ClCompile Include="encode\en_2n_code_sub.c" />
+    <ClCompile Include="encode\en_Kside.c" />
+    <ClCompile Include="encode\en_KsideSub.c" />
+    <ClCompile Include="encode\en_KsideSub_n1s.c" />
+    <ClCompile Include="encode\en_Kside_new.c" />
+    <ClCompile Include="encode\en_r0.c" />
+    <ClCompile Include="encode\en_r1.c" />
+    <ClCompile Include="encode\en_runs_0seps.c" />
+    <ClCompile Include="encode\en_runs_1sep.c" />
+    <ClCompile Include="encode\en_runs_2seps.c" />
+    <ClCompile Include="encode\en_runs_2sepsA.c" />
+    <ClCompile Include="encode\en_runs_sep_sub.c" />
+    <ClCompile Include="encode\en_r_cr.c" />
+    <ClCompile Include="encode\en_sub3d_sub2.c" />
+    <ClCompile Include="encode\en_sub3d_sub2_sub.c" />
+    <ClCompile Include="encode\en_z0.c" />
+    <ClCompile Include="encode\en_z0_r0.c" />
+    <ClCompile Include="encode\en_zone_new.c" />
+    <ClCompile Include="encode\en_zone_sub2.c" />
+    <ClCompile Include="encode\en_zone_sub_new.c" />
+    <ClCompile Include="encode\find_thd.c" />
+    <ClCompile Include="encode\find_thd4subs.c" />
+    <ClCompile Include="encode\find_thd_idx.c" />
+    <ClCompile Include="encode\find_the_idx_round.c" />
+    <ClCompile Include="encode\Golomb0.c" />
+    <ClCompile Include="encode\GolombInv.c" />
+    <ClCompile Include="encode\hist.c" />
+    <ClCompile Include="encode\hist_return_len.c" />
+    <ClCompile Include="encode\KW_inversion_runs.c" />
+    <ClCompile Include="encode\k_criterion.c" />
+    <ClCompile Include="encode\len_bit_to_byte.c" />
+    <ClCompile Include="encode\probility_estimation.c" />
+    <ClCompile Include="encode\prob_est.c" />
+    <ClCompile Include="encode\Separate.c" />
+    <ClCompile Include="encode\separate0.c" />
+    <ClCompile Include="encode\separate_Bversion.c" />
+    <ClCompile Include="encode\separate_inv.c" />
+    <ClCompile Include="encode\SFcode.c" />
+    <ClCompile Include="encode\sum.c" />
+    <ClCompile Include="encode\sumBin.c" />
+    <ClCompile Include="encode\thd_index_inv.c" />
+    <ClCompile Include="encode\the_index.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="quant\quant_inv.c" />
+    <ClCompile Include="quant\quant_rest.c" />
+    <ClCompile Include="quant\quant_sub.c" />
+    <ClCompile Include="quant\trim.c" />
+    <ClCompile Include="scan\add.c" />
+    <ClCompile Include="scan\find_block.c" />
+    <ClCompile Include="scan\Hilbert_other.c" />
+    <ClCompile Include="scan\modify_Hilbert2D.c" />
+    <ClCompile Include="scan\modify_Hilbert3D.c" />
+    <ClCompile Include="scan\modify_Hilbert3D_BlockDeformation0.c" />
+    <ClCompile Include="scan\modify_Hilbert_sub.c" />
+    <ClCompile Include="scan\modify_Hilbert_sub3D.c" />
+    <ClCompile Include="trans\readYUV.c" />
+    <ClCompile Include="trans\SCWP8-method2_all_3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="all.h" />
+    <ClInclude Include="encoding.h" />
+    <ClInclude Include="modify_Hilbert2D.h" />
+    <ClInclude Include="modify_Hilbert3D.h" />
+    <ClInclude Include="parameter_setting.h" />
+    <ClInclude Include="quant_inv.h" />
+    <ClInclude Include="quant_rest.h" />
+    <ClInclude Include="quant_sub.h" />
+    <ClInclude Include="readYUV.h" />
+    <ClInclude Include="transform.h" />
+    <ClInclude Include="trim.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

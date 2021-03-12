@@ -1,0 +1,195 @@
+﻿生成启动时间为 2021/2/2 18:48:09。
+     1>项目“E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\trans_qt_encode.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /I"E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c quant\quant_sub.c
+         main.c
+     1>main.c(184): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         quant_sub.c
+     1>quant\quant_sub.c(35): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(39): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(41): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(62): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(67): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(72): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(110): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(115): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(124): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(147): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(152): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(161): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(200): warning C4244: “=”: 从“float”转换到“unsigned long”，可能丢失数据
+     1>quant\quant_sub.c(205): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(206): warning C4018: “>”: 有符号/无符号不匹配
+     1>quant\quant_sub.c(208): warning C4018: “<”: 有符号/无符号不匹配
+     1>quant\quant_sub.c(319): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>quant\quant_sub.c(417): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(440): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(450): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(465): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(474): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(483): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(492): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(501): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(510): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(520): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(529): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(538): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(555): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(568): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(577): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(586): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(595): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(604): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(613): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(623): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(640): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(649): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(658): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(667): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(676): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(685): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(694): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(703): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(712): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(722): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(731): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(740): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(749): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(758): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(767): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(776): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(796): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(801): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(810): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(819): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(828): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(837): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(846): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(855): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(1123): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(1205): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(1265): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(1325): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(1385): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(1469): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>quant\quant_sub.c(1662): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>quant\quant_sub.c(1680): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\程序代码\量化\2021-01-15\trans_qt_encode\Release\trans_qt_encode.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\程序代码\量化\2021-01-15\trans_qt_encode\Release\trans_qt_encode.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\程序代码\量化\2021-01-15\trans_qt_encode\Release\trans_qt_encode.lib" /MACHINE:X86 /SAFESEH Release\bin_add.obj
+         Release\cr_test.obj
+         Release\decode_block3.obj
+         Release\decode_block3_n0s.obj
+         Release\decode_block3_n1s.obj
+         Release\decode_block5.obj
+         Release\decode_block5_n0s.obj
+         Release\decode_block5_n1s.obj
+         Release\decode_stationary_source_leninvr.obj
+         Release\decode_stationary_source_lenr.obj
+         Release\decode_stationary_source_Nsym_lenr.obj
+         Release\decode_stationary_source_r_invr.obj
+         Release\decode_stationary_source_sumr.obj
+         Release\deSFcode.obj
+         Release\de_2n_code_new.obj
+         Release\de_2n_code_sub.obj
+         Release\de_2n_code_sub1.obj
+         Release\de_Kside.obj
+         Release\de_KsideSub.obj
+         Release\de_KsideSub_n1s.obj
+         Release\de_Kside_new.obj
+         Release\de_r0.obj
+         Release\de_r1.obj
+         Release\de_runs_0seps.obj
+         Release\de_runs_1sep.obj
+         Release\de_runs_2seps.obj
+         Release\de_runs_2sepsA.obj
+         Release\de_runs_sep_sub.obj
+         Release\de_r_cr.obj
+         Release\de_sub3d_sub2.obj
+         Release\de_sub3d_sub2_sub.obj
+         Release\de_z0.obj
+         Release\de_z0_r0.obj
+         Release\de_zone_new.obj
+         Release\de_zone_sub2.obj
+         Release\de_zone_sub_new.obj
+         Release\encode_block3.obj
+         Release\encode_block5.obj
+         Release\encode_block_nrs.obj
+         Release\encode_block_nrs_lenres.obj
+         Release\encode_stationary_source_bin.obj
+         Release\encode_stationary_source_cbook.obj
+         Release\encode_stationary_source_Nsym.obj
+         Release\encode_stationary_source_Nsym_sub.obj
+         Release\encode_stationary_source_r_invr.obj
+         Release\encoding.obj
+         Release\en_2n_code_new.obj
+         Release\en_2n_code_sub.obj
+         Release\en_Kside.obj
+         Release\en_KsideSub.obj
+         Release\en_KsideSub_n1s.obj
+         Release\en_Kside_new.obj
+         Release\en_r0.obj
+         Release\en_r1.obj
+         Release\en_runs_0seps.obj
+         Release\en_runs_1sep.obj
+         Release\en_runs_2seps.obj
+         Release\en_runs_2sepsA.obj
+         Release\en_runs_sep_sub.obj
+         Release\en_r_cr.obj
+         Release\en_sub3d_sub2.obj
+         Release\en_sub3d_sub2_sub.obj
+         Release\en_z0.obj
+         Release\en_z0_r0.obj
+         Release\en_zone_new.obj
+         Release\en_zone_sub2.obj
+         Release\en_zone_sub_new.obj
+         Release\find_thd.obj
+         Release\find_thd4subs.obj
+         Release\find_thd_idx.obj
+         Release\find_the_idx_round.obj
+         Release\Golomb0.obj
+         Release\GolombInv.obj
+         Release\hist.obj
+         Release\hist_return_len.obj
+         Release\KW_inversion_runs.obj
+         Release\k_criterion.obj
+         Release\len_bit_to_byte.obj
+         Release\probility_estimation.obj
+         Release\prob_est.obj
+         Release\Separate.obj
+         Release\separate0.obj
+         Release\separate_Bversion.obj
+         Release\separate_inv.obj
+         Release\SFcode.obj
+         Release\sum.obj
+         Release\sumBin.obj
+         Release\thd_index_inv.obj
+         Release\the_index.obj
+         Release\main.obj
+         Release\quant_inv.obj
+         Release\quant_rest.obj
+         Release\quant_sub.obj
+         Release\trim.obj
+         Release\add.obj
+         Release\find_block.obj
+         Release\Hilbert_other.obj
+         Release\modify_Hilbert2D.obj
+         Release\modify_Hilbert3D.obj
+         Release\modify_Hilbert3D_BlockDeformation0.obj
+         Release\modify_Hilbert_sub.obj
+         Release\modify_Hilbert_sub3D.obj
+         Release\readYUV.obj
+         "Release\SCWP8-method2_all_3.obj"
+     1>LINK : warning C4744: “ptr”在“E:\�������\����\2021-01-15\trans_qt_encode\trans_qt_encode\main.c”和“E:\�������\����\2021-01-15\trans_qt_encode\trans_qt_encode\encode\bin_add.c”中具有不同的类型: “unsigned int”和“int”
+     1>LINK : warning C4744: “ptr”在“E:\�������\����\2021-01-15\trans_qt_encode\trans_qt_encode\quant\quant_inv.c”和“E:\�������\����\2021-01-15\trans_qt_encode\trans_qt_encode\main.c”中具有不同的类型: “int”和“unsigned int”
+         正在生成代码
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\bin_add.c(41): warning C4716: “bin_add”: 必须返回一个值
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan\modify_hilbert2d.c(230): warning C4715: “draw_hibert”: 不是所有的控件路径都返回值
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_runs_sep_sub.c(56): warning C4716: “en_runs_sep_sub”: 必须返回一个值
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_r1.c(89): warning C4716: “en_r1”: 必须返回一个值
+         已完成代码的生成
+         trans_qt_encode.vcxproj -> E:\程序代码\量化\2021-01-15\trans_qt_encode\Release\trans_qt_encode.exe
+     1>已完成生成项目“E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\trans_qt_encode.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.32

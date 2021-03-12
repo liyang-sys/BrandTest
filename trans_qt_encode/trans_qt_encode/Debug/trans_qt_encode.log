@@ -1,0 +1,227 @@
+﻿生成启动时间为 2021/1/30 16:30:09。
+     1>项目“E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\trans_qt_encode.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt encode\bin_add.c encode\cr_test.c encode\decode_block3.c encode\decode_block3_n0s.c encode\decode_block3_n1s.c encode\decode_block5.c encode\decode_block5_n0s.c encode\decode_block5_n1s.c encode\decode_stationary_source_leninvr.c encode\decode_stationary_source_lenr.c encode\decode_stationary_source_Nsym_lenr.c encode\decode_stationary_source_r_invr.c encode\decode_stationary_source_sumr.c encode\deSFcode.c encode\de_2n_code_new.c encode\de_2n_code_sub.c encode\de_2n_code_sub1.c encode\de_Kside.c encode\de_KsideSub.c encode\de_KsideSub_n1s.c encode\de_Kside_new.c encode\de_r0.c encode\de_r1.c encode\de_runs_0seps.c encode\de_runs_1sep.c encode\de_runs_2seps.c encode\de_runs_2sepsA.c encode\de_runs_sep_sub.c encode\de_r_cr.c encode\de_sub3d_sub2.c encode\de_sub3d_sub2_sub.c encode\de_z0.c encode\de_z0_r0.c encode\de_zone_new.c encode\de_zone_sub2.c encode\de_zone_sub_new.c encode\encode_block3.c encode\encode_block5.c encode\encode_block_nrs.c encode\encode_block_nrs_lenres.c encode\encode_stationary_source_bin.c encode\encode_stationary_source_cbook.c encode\encode_stationary_source_Nsym.c encode\encode_stationary_source_Nsym_sub.c encode\encode_stationary_source_r_invr.c encode\encoding.c encode\en_2n_code_new.c encode\en_2n_code_sub.c encode\en_Kside.c encode\en_KsideSub.c encode\en_KsideSub_n1s.c encode\en_Kside_new.c encode\en_r0.c encode\en_r1.c encode\en_runs_0seps.c encode\en_runs_1sep.c encode\en_runs_2seps.c encode\en_runs_2sepsA.c encode\en_runs_sep_sub.c encode\en_r_cr.c encode\en_sub3d_sub2.c encode\en_sub3d_sub2_sub.c encode\en_z0.c encode\en_z0_r0.c encode\en_zone_new.c encode\en_zone_sub2.c encode\en_zone_sub_new.c encode\find_thd.c encode\find_thd4subs.c encode\find_thd_idx.c encode\find_the_idx_round.c encode\Golomb0.c encode\GolombInv.c encode\hist.c encode\hist_return_len.c encode\KW_inversion_runs.c encode\k_criterion.c encode\len_bit_to_byte.c encode\probility_estimation.c encode\prob_est.c encode\Separate.c encode\separate0.c encode\separate_Bversion.c encode\separate_inv.c encode\SFcode.c encode\sum.c encode\sumBin.c encode\thd_index_inv.c encode\the_index.c main.c quant\quant_inv.c quant\quant_rest.c quant\quant_sub.c quant\trim.c scan\add.c scan\find_block.c scan\Hilbert_other.c scan\modify_Hilbert2D.c scan\modify_Hilbert3D.c scan\modify_Hilbert3D_BlockDeformation0.c scan\modify_Hilbert_sub.c scan\modify_Hilbert_sub3D.c trans\readYUV.c "trans\SCWP8-method2_all_3.c"
+         SCWP8-method2_all_3.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\trans\scwp8-method2_all_3.c(2): fatal error C1083: 无法打开包括文件: “transform.h”: No such file or directory
+         readYUV.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\trans\readyuv.c(2): fatal error C1083: 无法打开包括文件: “readYUV.h”: No such file or directory
+         modify_Hilbert_sub3D.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan\modify_hilbert_sub3d.c(1): fatal error C1083: 无法打开包括文件: “modify_Hilbert3D.h”: No such file or directory
+         modify_Hilbert_sub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan\modify_hilbert_sub.c(1): fatal error C1083: 无法打开包括文件: “modify_Hilbert3D.h”: No such file or directory
+         modify_Hilbert3D_BlockDeformation0.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan\modify_hilbert3d_blockdeformation0.c(1): fatal error C1083: 无法打开包括文件: “modify_Hilbert3D.h”: No such file or directory
+         modify_Hilbert3D.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan\modify_hilbert3d.c(1): fatal error C1083: 无法打开包括文件: “modify_Hilbert3D.h”: No such file or directory
+         modify_Hilbert2D.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan\modify_hilbert2d.c(13): fatal error C1083: 无法打开包括文件: “modify_Hilbert2D.h”: No such file or directory
+         Hilbert_other.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan\hilbert_other.c(1): fatal error C1083: 无法打开包括文件: “modify_Hilbert3D.h”: No such file or directory
+         find_block.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan\find_block.c(1): fatal error C1083: 无法打开包括文件: “modify_Hilbert2D.h”: No such file or directory
+         add.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\scan\add.c(1): fatal error C1083: 无法打开包括文件: “modify_Hilbert2D.h”: No such file or directory
+         trim.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\quant\trim.c(1): fatal error C1083: 无法打开包括文件: “trim.h”: No such file or directory
+         quant_sub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\quant\quant_sub.c(2): fatal error C1083: 无法打开包括文件: “quant_sub.h”: No such file or directory
+         quant_rest.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\quant\quant_rest.c(1): fatal error C1083: 无法打开包括文件: “quant_rest.h”: No such file or directory
+         quant_inv.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\quant\quant_inv.c(1): fatal error C1083: 无法打开包括文件: “quant_inv.h”: No such file or directory
+         main.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\main.c(177): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         the_index.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\the_index.c(1): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         thd_index_inv.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\thd_index_inv.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         sumBin.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\sumbin.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         sum.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\sum.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         SFcode.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\sfcode.c(45): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         separate_inv.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\separate_inv.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         separate_Bversion.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\separate_bversion.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         separate0.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\separate0.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         Separate.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\separate.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         prob_est.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\prob_est.c(49): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         probility_estimation.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\probility_estimation.c(34): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         len_bit_to_byte.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\len_bit_to_byte.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         k_criterion.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\k_criterion.c(181): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         KW_inversion_runs.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\kw_inversion_runs.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         hist_return_len.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\hist_return_len.c(1): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         hist.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\hist.c(1): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         GolombInv.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\golombinv.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         Golomb0.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\golomb0.c(38): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         find_the_idx_round.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\find_the_idx_round.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         find_thd_idx.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\find_thd_idx.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         find_thd4subs.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\find_thd4subs.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         find_thd.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\find_thd.c(1): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_zone_sub_new.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_zone_sub_new.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_zone_sub2.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_zone_sub2.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_zone_new.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_zone_new.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         en_z0_r0.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_z0_r0.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_z0.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_z0.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_sub3d_sub2_sub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_sub3d_sub2_sub.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_sub3d_sub2.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_sub3d_sub2.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_r_cr.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_r_cr.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_runs_sep_sub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_runs_sep_sub.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_runs_2sepsA.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_runs_2sepsa.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_runs_2seps.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_runs_2seps.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_runs_1sep.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_runs_1sep.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_runs_0seps.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_runs_0seps.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_r1.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_r1.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_r0.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_r0.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_Kside_new.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_kside_new.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_KsideSub_n1s.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_ksidesub_n1s.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_KsideSub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_ksidesub.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_Kside.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_kside.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_2n_code_sub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_2n_code_sub.c(1): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         en_2n_code_new.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\en_2n_code_new.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         encoding.c
+         encode_stationary_source_r_invr.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\encode_stationary_source_r_invr.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         encode_stationary_source_Nsym_sub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\encode_stationary_source_nsym_sub.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         encode_stationary_source_Nsym.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\encode_stationary_source_nsym.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         encode_stationary_source_cbook.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\encode_stationary_source_cbook.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         encode_stationary_source_bin.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\encode_stationary_source_bin.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         encode_block_nrs_lenres.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\encode_block_nrs_lenres.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         encode_block_nrs.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\encode_block_nrs.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         encode_block5.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\encode_block5.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         encode_block3.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\encode_block3.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_zone_sub_new.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_zone_sub_new.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_zone_sub2.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_zone_sub2.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_zone_new.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_zone_new.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_z0_r0.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_z0_r0.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_z0.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_z0.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_sub3d_sub2_sub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_sub3d_sub2_sub.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_sub3d_sub2.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_sub3d_sub2.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_r_cr.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_r_cr.c(3): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_runs_sep_sub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_runs_sep_sub.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_runs_2sepsA.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_runs_2sepsa.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_runs_2seps.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_runs_2seps.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_runs_1sep.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_runs_1sep.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         de_runs_0seps.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_runs_0seps.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_r1.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_r1.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_r0.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_r0.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_Kside_new.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_kside_new.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_KsideSub_n1s.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_ksidesub_n1s.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_KsideSub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_ksidesub.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_Kside.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_kside.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_2n_code_sub1.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_2n_code_sub1.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_2n_code_sub.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_2n_code_sub.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         de_2n_code_new.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\de_2n_code_new.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         deSFcode.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\desfcode.c(1): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_stationary_source_sumr.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_stationary_source_sumr.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_stationary_source_r_invr.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_stationary_source_r_invr.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_stationary_source_Nsym_lenr.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_stationary_source_nsym_lenr.c(168): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_stationary_source_lenr.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_stationary_source_lenr.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_stationary_source_leninvr.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_stationary_source_leninvr.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_block5_n1s.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_block5_n1s.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_block5_n0s.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_block5_n0s.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_block5.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_block5.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_block3_n1s.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_block3_n1s.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         正在生成代码...
+         正在编译...
+         decode_block3_n0s.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_block3_n0s.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         decode_block3.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\decode_block3.c(4): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         cr_test.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\cr_test.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         bin_add.c
+     1>e:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\encode\bin_add.c(2): fatal error C1083: 无法打开包括文件: “all.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode\trans_qt_encode.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.59
