@@ -4,6 +4,7 @@
 #include "quant_sub.h"
 #include "transform.h"
 #include <math.h>
+#include "encoding.h"
 
 unsigned char **sn;
 unsigned char *snbin;
@@ -143,6 +144,10 @@ void memoryAllocation(int H, int W, int m, int n)
 	}
 }
 
+//int main()
+//{
+//	test();
+//}
 int main()
 {
 	int W, H, n, m;

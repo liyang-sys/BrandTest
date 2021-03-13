@@ -115,7 +115,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>E:\程序代码\量化\2021-01-15\trans_qt_encode\trans_qt_encode;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\liyang\Desktop\BISHE\ZiDaiTest\trans_qt_encode\trans_qt_encode;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -230,8 +230,11 @@
     <ClCompile Include="scan\modify_Hilbert3D_BlockDeformation0.c" />
     <ClCompile Include="scan\modify_Hilbert_sub.c" />
     <ClCompile Include="scan\modify_Hilbert_sub3D.c" />
+    <ClCompile Include="test.c" />
     <ClCompile Include="trans\readYUV.c" />
     <ClCompile Include="trans\SCWP8-method2_all_3.c" />
+    <ClCompile Include="writeBinToFile.c" />
+    <ClCompile Include="writeToDataFile.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="all.h" />

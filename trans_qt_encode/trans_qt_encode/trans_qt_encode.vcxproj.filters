@@ -339,6 +339,15 @@
     <ClCompile Include="encode\thd_index_inv.c">
       <Filter>源文件\encode</Filter>
     </ClCompile>
+    <ClCompile Include="writeToDataFile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="writeBinToFile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="all.h">

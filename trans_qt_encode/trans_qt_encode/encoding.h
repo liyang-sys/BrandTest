@@ -90,4 +90,9 @@ void test_de_sub3d_sub2_sub();
 void test_de_sub3d_sub2();
 void test_en_zone_sub_new();*/
 
+void writeToDataFile(float* cf0, Uint8_Dat* sn, int lencf0);
+void writeBinToFile(unsigned char *bin, int ptr);
+void test();
+
+
 #endif /* __ENCODING_H */

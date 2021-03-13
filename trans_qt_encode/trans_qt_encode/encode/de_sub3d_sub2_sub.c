@@ -651,13 +651,13 @@ DE_S_S_SUB de_sub3d_sub2_sub(uchar *biny, int thd, int len, int lenbinbit)
 
 
 
-				na = 3, nb = 3;
+				na = 3, nb = 4;
 				DEC z22 = de_r_cr(biny, len12, lenbinbit);
 				Uint8_Dat z22U8v;
 				z22U8v.dat = z22.z;
 				z22U8v.len = z22.lenzbit;
-				int len33 = sumBin(&z22U8v);
-				len33 = z22.lenzbit - len33;
+				int len34 = sumBin(&z22U8v);
+				int len33 = z22.lenzbit - len34;
 
 				//nd3 == 3
 				Uint32_Dat cf23;
@@ -694,8 +694,41 @@ DE_S_S_SUB de_sub3d_sub2_sub(uchar *biny, int thd, int len, int lenbinbit)
 					}
 					free(zCf33.z);
 				}
+
+				//nd3 == 4
+				Uint32_Dat cf24;
+				cf24.dat = NULL;
+				cf24.len = 0;
+
+				if (L3.sym < 4)
+				{
+					DEC cf24Dec = de_2n_code_new(biny, len34, thdq, typ);
+					cf24.dat = cf24Dec.r;
+					cf24.len = cf24Dec.lenr;
+				}
+				else
+				{
+					DEC zCf34 = de_r_cr(biny, len34, lenbinbit);
+					cf24.dat = (unsigned int*)calloc(zCf34.lenzbit, sizeof(unsigned int));
+					cf24.len = zCf34.lenzbit;
+					int indexZ1 = 0;
+					for (int i = 0; i < zCf34.lenzbit; i++)
+					{
+						indexZ1 = i & 7;
+						if (((zCf34.z[i >> 3] >> (7 - indexZ1)) & 1))
+						{
+							cf24.dat[i] = 2;
+						}
+						else
+						{
+							cf24.dat[i] = 1;
+						}
+					}
+					free(zCf34.z);
+				}
+
 				cf12.len = z22.lenzbit;
-				cf12.dat = separate_inv(z22.z, cf23.dat, cf23.dat, z22.lenzbit, thdq);
+				cf12.dat = separate_inv(z22.z, cf24.dat, cf23.dat, z22.lenzbit, thdq);
 
 				ret.cfk.dat = separate_inv(z1.z, cf12.dat, cf11.dat, z1.lenzbit, thdh);
 				ret.cfk.len = z1.lenzbit;
@@ -715,6 +748,7 @@ DE_S_S_SUB de_sub3d_sub2_sub(uchar *biny, int thd, int len, int lenbinbit)
 				}
 				free(z22.z);
 				free(cf23.dat);
+				free(cf24.dat);
 				free(cf12.dat);
 			}
 		}
@@ -993,13 +1027,13 @@ DE_S_S_SUB de_sub3d_sub2_sub(uchar *biny, int thd, int len, int lenbinbit)
 
 
 
-				na = 3, nb = 3;
+				na = 3, nb = 4;
 				DEC z22 = de_r_cr(biny, len12, lenbinbit);
 				Uint8_Dat z22U8v;
 				z22U8v.dat = z22.z;
 				z22U8v.len = z22.lenzbit;
-				int len33 = sumBin(&z22U8v);
-				len33 = z22.lenzbit - len33;
+				int len34 = sumBin(&z22U8v);
+				int len33 = z22.lenzbit - len34;
 
 				//nd3 == 3
 				Uint32_Dat cf23;
@@ -1055,8 +1089,62 @@ DE_S_S_SUB de_sub3d_sub2_sub(uchar *biny, int thd, int len, int lenbinbit)
 					free(cf3k3Dec.r);
 					free(cf3w3.dat);
 				}
+
+				//nd3 == 4
+				Uint32_Dat cf24;
+				cf24.dat = NULL;
+				cf24.len = 0;
+				if (L3.sym < 4)
+				{
+					DEC cf22Dec = de_2n_code_new(biny, len34, thdq, typ);
+					cf24.dat = cf22Dec.r;
+					cf24.len = cf22Dec.lenr;
+				}
+				else
+				{
+					//DEC zCf33 = de_r_cr(biny, len33, lenbinbit);
+					//cf23.dat = (unsigned int*)calloc(zCf33.lenzbit, sizeof(unsigned int));
+					//cf23.len = zCf33.lenzbit;
+					//int indexZ1 = 0;
+					//for (int i = 0; i < zCf33.lenzbit; i++)
+					//{
+					//	indexZ1 = i & 7;
+					//	if (((zCf33.z[i >> 3] >> (7 - indexZ1)) & 1))
+					//	{
+					//		cf23.dat[i] = 2;
+					//	}
+					//	else
+					//	{
+					//		cf23.dat[i] = 1;
+					//	}
+					//}
+					//free(zCf33.z);
+					DEC zCf34 = de_r_cr(biny, len34, lenbinbit);
+					Uint8_Dat z34U8v;
+					z34U8v.dat = zCf34.z;
+					z34U8v.len = zCf34.lenzbit;
+					int lenw3 = sumBin(&z34U8v);
+					int lenk3 = zCf34.lenzbit - lenw3;
+					DEC cf3k4Dec = de_2n_code_new(biny, lenk3, thdt, typ3);
+					Uint32_Dat cf3w4;
+					cf3w4.len = lenw3;
+					cf3w4.dat = (unsigned int *)calloc(lenw3, sizeof(unsigned int));
+					for (int i = 0; i < lenw3; i++)
+					{
+						cf3w4.dat[i] = 1;
+					}
+					cf24.len = zCf34.lenzbit;
+					cf24.dat = separate_inv(zCf34.z, cf3w4.dat, cf3k4Dec.r, zCf34.lenzbit, thdt);
+					free(zCf34.z);
+					free(cf3k4Dec.r);
+					free(cf3w4.dat);
+				}
+
+
+
+
 				cf12.len = z22.lenzbit;
-				cf12.dat = separate_inv(z22.z, cf23.dat, cf23.dat, z22.lenzbit, thdq);
+				cf12.dat = separate_inv(z22.z, cf24.dat, cf23.dat, z22.lenzbit, thdq);
 
 				ret.cfk.dat = separate_inv(z1.z, cf12.dat, cf11.dat, z1.lenzbit, thdh);
 				ret.cfk.len = z1.lenzbit;
@@ -1076,6 +1164,7 @@ DE_S_S_SUB de_sub3d_sub2_sub(uchar *biny, int thd, int len, int lenbinbit)
 				}
 				free(z22.z);
 				free(cf23.dat);
+				free(cf24.dat);
 				free(cf12.dat);
 			}
 		}
@@ -1346,13 +1435,13 @@ DE_S_S_SUB de_sub3d_sub2_sub(uchar *biny, int thd, int len, int lenbinbit)
 
 
 
-				na = 3, nb = 3;
+				na = 3, nb = 4;
 				DEC z22 = de_r_cr(biny, len12, lenbinbit);
 				Uint8_Dat z22U8v;
 				z22U8v.dat = z22.z;
 				z22U8v.len = z22.lenzbit;
-				int len33 = sumBin(&z22U8v);
-				len33 = z22.lenzbit - len33;
+				int len34 = sumBin(&z22U8v);
+				int len33 = z22.lenzbit - len34;
 
 				//nd3 == 3
 				Uint32_Dat cf23;
@@ -1409,8 +1498,61 @@ DE_S_S_SUB de_sub3d_sub2_sub(uchar *biny, int thd, int len, int lenbinbit)
 					free(cf3k3Dec.r);
 					free(cf3w3Dec.r);
 				}
+				//nd3 == 4
+				Uint32_Dat cf24;
+				cf24.dat = NULL;
+				cf24.len = 0;
+				if (L3.sym < 4)
+				{
+					DEC cf22Dec = de_2n_code_new(biny, len34, thdq, typ);
+					cf24.dat = cf22Dec.r;
+					cf24.len = cf22Dec.lenr;
+				}
+				else
+				{
+					//DEC zCf33 = de_r_cr(biny, len33, lenbinbit);
+					//cf23.dat = (unsigned int*)calloc(zCf33.lenzbit, sizeof(unsigned int));
+					//cf23.len = zCf33.lenzbit;
+					//int indexZ1 = 0;
+					//for (int i = 0; i < zCf33.lenzbit; i++)
+					//{
+					//	indexZ1 = i & 7;
+					//	if (((zCf33.z[i >> 3] >> (7 - indexZ1)) & 1))
+					//	{
+					//		cf23.dat[i] = 2;
+					//	}
+					//	else
+					//	{
+					//		cf23.dat[i] = 1;
+					//	}
+					//}
+					//free(zCf33.z);
+					DEC zCf34 = de_r_cr(biny, len34, lenbinbit);
+					Uint8_Dat z34U8v;
+					z34U8v.dat = zCf34.z;
+					z34U8v.len = zCf34.lenzbit;
+					int lenw3 = sumBin(&z34U8v);
+					int lenk3 = zCf34.lenzbit - lenw3;
+					DEC cf3k4Dec = de_2n_code_new(biny, lenk3, thdt, typ);
+					//Uint32_Dat cf3w3;
+					//cf3w3.len = lenw3;
+					//cf3w3.dat = (unsigned int *)calloc(lenw3, sizeof(unsigned int));
+					//for (int i = 0; i < lenw3; i++)
+					//{
+					//	cf3w3.dat[i] = 1;
+					//}
+					DEC cf3w4Dec = de_2n_code_new(biny, lenw3, thdt, typ);
+					cf24.len = zCf34.lenzbit;
+					cf24.dat = separate_inv(zCf34.z, cf3w4Dec.r, cf3k4Dec.r, zCf34.lenzbit, thdt);
+					free(zCf34.z);
+					free(cf3k4Dec.r);
+					free(cf3w4Dec.r);
+				}
+
+
+
 				cf12.len = z22.lenzbit;
-				cf12.dat = separate_inv(z22.z, cf23.dat, cf23.dat, z22.lenzbit, thdq);
+				cf12.dat = separate_inv(z22.z, cf24.dat, cf23.dat, z22.lenzbit, thdq);
 
 				ret.cfk.dat = separate_inv(z1.z, cf12.dat, cf11.dat, z1.lenzbit, thdh);
 				ret.cfk.len = z1.lenzbit;
@@ -1430,6 +1572,7 @@ DE_S_S_SUB de_sub3d_sub2_sub(uchar *biny, int thd, int len, int lenbinbit)
 				}
 				free(z22.z);
 				free(cf23.dat);
+				free(cf24.dat);
 				free(cf12.dat);
 			}
 		}
