@@ -93,6 +93,7 @@ void test_en_zone_sub_new();*/
 void writeToDataFile(float* cf0, Uint8_Dat* sn, int lencf0);
 void writeBinToFile(unsigned char *bin, int ptr);
 void test();
-
+void encode_stationary_source_Nsym_sub_in_en_Kside_new(uint *r, int lenr, float pw, int Nsym, int flg);
+void encode_stationary_source_Nsym_in_en_Kside_new(uint *r, int lenr, float p_or_codebook, int Nsym, int flg);
 
 #endif /* __ENCODING_H */

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "all.h"
 #include "parameter_setting.h"
+#include"encoding.h"
 
 #define uint unsigned int
 #define uchar unsigned char
@@ -234,7 +235,8 @@ void en_Kside_new(int *rk, int l_rk, int *nk, int l_nk, int thd)
 		/* binck=encode_stationary_source(codebook+1, 4);  */
 		/* biny = [biny binck bin];  */
 		//printf("thd = %d\n", thd);
-		encode_stationary_source_Nsym(rA_temp.dat, rA_temp.len, p, thd - 2, 0, 4);
+		//encode_stationary_source_Nsym(rA_temp.dat, rA_temp.len, p, thd - 2, 0, 4);
+		encode_stationary_source_Nsym_in_en_Kside_new(rA_temp.dat, rA_temp.len, p, thd - 2, 4);
 
 		free(Separate0.rw);
 		free(Separate0.sep);

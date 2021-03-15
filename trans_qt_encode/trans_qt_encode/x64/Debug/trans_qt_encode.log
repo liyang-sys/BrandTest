@@ -1,11 +1,17 @@
-﻿  de_sub3d_sub2_sub.c
-c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode\de_sub3d_sub2_sub.c(80): warning C4018: “<”: 有符号/无符号不匹配
-  main.c
-c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\main.c(175): warning C4474: scanf_s: 格式字符串中传递的参数太多
-  c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\main.c(175): note: 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
-c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\main.c(194): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\main.c(313): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\main.c(312): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\main.c(319): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-  正在生成代码...
+﻿  encode_stationary_source_Nsym_sub_in_en_Kside_new.c
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(107): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(117): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(123): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(131): warning C4018: “>”: 有符号/无符号不匹配
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(249): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(258): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(264): warning C4018: “>”: 有符号/无符号不匹配
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(270): warning C4018: “<=”: 有符号/无符号不匹配
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(273): warning C4018: “<=”: 有符号/无符号不匹配
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(24): warning C4101: “t0”: 未引用的局部变量
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(24): warning C4101: “t1”: 未引用的局部变量
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(18): warning C4101: “i”: 未引用的局部变量
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(19): warning C4101: “sfcode”: 未引用的局部变量
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(24): warning C4101: “t”: 未引用的局部变量
+c:\users\liyang\desktop\bishe\zidaitest\trans_qt_encode\trans_qt_encode\encode_stationary_source_nsym_sub_in_en_kside_new.c(20): warning C4101: “n”: 未引用的局部变量
   trans_qt_encode.vcxproj -> C:\Users\liyang\Desktop\BISHE\ZiDaiTest\trans_qt_encode\x64\Debug\trans_qt_encode.exe

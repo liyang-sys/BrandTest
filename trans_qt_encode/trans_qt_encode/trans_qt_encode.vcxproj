@@ -217,6 +217,8 @@
     <ClCompile Include="encode\sumBin.c" />
     <ClCompile Include="encode\thd_index_inv.c" />
     <ClCompile Include="encode\the_index.c" />
+    <ClCompile Include="encode_stationary_source_Nsym_in_en_Kside_new.c" />
+    <ClCompile Include="encode_stationary_source_Nsym_sub_in_en_Kside_new.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="quant\quant_inv.c" />
     <ClCompile Include="quant\quant_rest.c" />

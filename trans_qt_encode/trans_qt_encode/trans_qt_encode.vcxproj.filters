@@ -348,6 +348,12 @@
     <ClCompile Include="test.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="encode_stationary_source_Nsym_in_en_Kside_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="encode_stationary_source_Nsym_sub_in_en_Kside_new.c">
+      <Filter>源文件\encode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="all.h">

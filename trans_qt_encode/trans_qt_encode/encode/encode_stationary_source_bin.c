@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "all.h"
+#include<math.h>
 
 #define uint unsigned int
 #define uchar unsigned char
@@ -32,12 +33,25 @@ void encode_stationary_source_bin(uint *r, int lenr, float pw, int k, int m, int
 	if (cls == 0) {
 		for (i = 0; i < lenr; i++) {
 			rem.a = r[i];
-			while (rem.a > m) {
-				rem.a -= m;
-				bin[ptr >> 3] |= 1 << (7 - x);
+			if (rem.a != 0)
+			{
+				while (rem.a > m) {
+					rem.a -= m;
+					bin[ptr >> 3] |= 1 << (7 - x);
+					x++; x &= 7; ptr++;
+				}
 				x++; x &= 7; ptr++;
 			}
-			x++; x &= 7; ptr++;
+			//int hd = (int)(floor((rem.a - 0.5) / (m*1.0)));
+			//if (hd >= 1)
+			//{
+			//	for (int i = 0; i < hd; i++)
+			//	{
+			//			bin[ptr >> 3] |= 1 << (7 - x);
+			//			x++; x &= 7; ptr++;
+			//	}
+			//	x++; x &= 7; ptr++;
+			//}
 			rem.a = (rem.a - 1) << (24 - x - k);
 			bin[ptr >> 3] |= rem.b[2];
 			bin[(ptr >> 3) + 1] |= rem.b[1];
@@ -49,12 +63,27 @@ void encode_stationary_source_bin(uint *r, int lenr, float pw, int k, int m, int
 	else {
 		for (i = 0; i < lenr; i++) {
 			rem.a = r[i];
-			while (rem.a > m) {
-				rem.a -= m;
-				bin[ptr >> 3] |= 1 << (7 - x);
+			if (rem.a != 0)
+			{
+				while (rem.a > m) {
+					rem.a -= m;
+					bin[ptr >> 3] |= 1 << (7 - x);
+					x++; x &= 7; ptr++;
+				}
 				x++; x &= 7; ptr++;
 			}
-			x++; x &= 7; ptr++;
+
+			//int hd = (int)(floor((rem.a - 0.5) / (m*1.0)));
+			//if (hd >= 1)
+			//{
+			//	for (int i = 0; i < hd; i++)
+			//	{
+			//		bin[ptr >> 3] |= 1 << (7 - x);
+			//		x++; x &= 7; ptr++;
+			//	}
+			//	x++; x &= 7; ptr++;
+			//}
+
 			if (rem.a <= m1) {
 				x++; x &= 7; ptr++;
 			}
@@ -80,5 +109,5 @@ void encode_stationary_source_bin(uint *r, int lenr, float pw, int k, int m, int
 		}
 	}
 
-	return codebook;
+	//return codebook;
 }

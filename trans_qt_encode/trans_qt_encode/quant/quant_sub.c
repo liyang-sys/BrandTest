@@ -2434,6 +2434,9 @@ void quant_sub7_harr(int a, int *w, int *h, int **m, float delta)
 #if ENCODE
 	sign.len = handleSn(sn[1], idx, lg, qctr, &maxcf0, f1.qcf[1]);
 	sign.dat = snbin;
+
+	writeToDataFile(f1.qcf[1], &sign, lg);
+
 	en_sub3d_sub2(f1.qcf[1], &sign, lg, maxcf0);
 #endif
 #if DECODE
